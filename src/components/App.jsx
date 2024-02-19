@@ -6,11 +6,11 @@ import user from "/src/user.json";
 import data from "/src/data.json";
 import friends from "/src/friends.json";
 import transactions from "/src/transactions.json";
-import css from "./App.module.css";
+// import css from "./App.module.css";
 
 const App = () => {
   return (
-    <div className={css.container}>
+    <>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -23,7 +23,7 @@ const App = () => {
       <Statistics title="Upload stats" stats={data} />
       <FriendsList friends={friends} />
       <TransactionHistory items={transactions} />
-    </div>
+    </>
   );
 };
 
