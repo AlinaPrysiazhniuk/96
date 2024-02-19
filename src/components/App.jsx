@@ -6,7 +6,7 @@ import user from "/src/user.json";
 import data from "/src/data.json";
 import friends from "/src/friends.json";
 import transactions from "/src/transactions.json";
-import css from "/src/components/App.css";
+import css from "/src/components/App.module.css";
 
 const App = () => {
   return (
