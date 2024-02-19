@@ -7,7 +7,7 @@ import data from "/src/data.json";
 import friends from "/src/friends.json";
 import transactions from "/src/transactions.json";
 
-export const App = () => {
+const App = () => {
   return (
     <>
       <Profile
@@ -25,3 +25,5 @@ export const App = () => {
     </>
   );
 };
+
+export default App;
